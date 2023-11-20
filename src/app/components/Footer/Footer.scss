@@ -1,0 +1,11 @@
+@use "../../../sass/variables" as *;
+
+footer {
+  position: absolute;
+  width: 100%;
+  background-color: $footer-background;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 34px;
+}
