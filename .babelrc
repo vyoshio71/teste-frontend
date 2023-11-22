@@ -1,0 +1,12 @@
+{
+  "presets": [
+    [
+      "next/babel",
+      {
+        "swc": true
+      }
+    ],
+    "@babel/preset-react"
+  ],
+  "plugins": []
+}
