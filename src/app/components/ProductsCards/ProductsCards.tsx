@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./ProductsCards.scss";
 import Image from "next/image";
-import useProducts from "../../../../Hooks/useProducts";
+import useProducts from "../../../Hooks/useProducts";
 import { motion } from "framer-motion";
 import LoadingIndicator from "../LoadingIndicator/LoadingIndicator";
 import LoadingProductsError from "../LoadingProductsError/LoadingProductsError";
