@@ -9,3 +9,16 @@ footer {
   justify-content: center;
   height: 34px;
 }
+
+@media (max-width: 768px) {
+  footer {
+    position: absolute;
+    width: 100%;
+    background-color: $footer-background;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 34px;
+    font-size: 15px;
+  }
+}
